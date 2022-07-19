@@ -35,7 +35,6 @@ class App extends React.Component {
   };
 
   deleteContact = contactId => {
-    console.log("click");
     this.setState(prevState => ({
      
       contacts: prevState.contacts.filter(contact => contact.id !== contactId),
